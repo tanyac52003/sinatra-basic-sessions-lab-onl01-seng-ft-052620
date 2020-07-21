@@ -19,6 +19,4 @@ class App < Sinatra::Base
     
     erb :item 
   end 
-    
-
 end
