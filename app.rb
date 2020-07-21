@@ -6,5 +6,10 @@ class App < Sinatra::Base
   enable :sessions 
   set :session_secret, "example"
   end 
+  
+  get '/' do
+    
+    erb :index 
+  end 
 
 end
