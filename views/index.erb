@@ -6,8 +6,13 @@
   <body>
     <form action="/checkout" method="post">
       <h1>Checkout</h1>
-      <p>Item to purchase:</p>
-      <input type = "submit">
+      <p>Item to purchase:</p><input type="text" id="item" name="item">
+      <input id="submit" type = "submit" value="submit">
     </form>
   </body>
 </html>
+
+
+ <form action="/checkout" method="POST">
+      Name of item: <input type="text" id="item" name="item">
+      <input id="submit" type="submit" value="sumbit">
